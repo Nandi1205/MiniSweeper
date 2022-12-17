@@ -41,6 +41,16 @@
         "description": "Only show the reply to you. (False)",
         "type": 5
       }
-    ]
+    ],
+    "dm_permission": false
+  },
+  {
+    "name": "guide",
+    "description": "How to play.",
+    "options": [{
+      "name": "private",
+      "description": "Only show the reply to you. (False)",
+      "type": 5
+    }]
   }
 ]

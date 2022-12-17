@@ -1,6 +1,6 @@
 {
   "name": "minisweeper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Discord bot you can play minesweeper with.",
   "main": "main.js",
   "author": "Nandi1205",
