@@ -1,56 +1,39 @@
 [
   {
     "name": "info",
-    "description": "About the bot.",
-    "options": [{
-      "name": "private",
-      "description": "Only show the reply to you. (False)",
-      "type": 5
-    }]
+    "description": "About the bot."
   },
   {
     "name": "minesweeper",
     "description": "Play minesweeper.",
-    "options": [
-      {
-        "name": "size",
-        "description": "The size of the minesweeper board.",
-        "type": 4,
-        "required": true,
-        "choices": [
-          {
-            "name": "6x6",
-            "value": 6
-          },
-          {
-            "name": "8x8",
-            "value": 8
-          },
-          {
-            "name": "10x10",
-            "value": 10
-          },
-          {
-            "name": "12x12",
-            "value": 12
-          }
-        ]
-      },
-      {
-        "name": "private",
-        "description": "Only show the reply to you. (False)",
-        "type": 5
-      }
-    ],
+    "options": [{
+      "name": "size",
+      "description": "The size of the minesweeper board.",
+      "type": 4,
+      "required": true,
+      "choices": [
+        {
+          "name": "6x6",
+          "value": 6
+        },
+        {
+          "name": "8x8",
+          "value": 8
+        },
+        {
+          "name": "10x10",
+          "value": 10
+        },
+        {
+          "name": "12x12",
+          "value": 12
+        }
+      ]
+    }],
     "dm_permission": false
   },
   {
     "name": "guide",
-    "description": "How to play.",
-    "options": [{
-      "name": "private",
-      "description": "Only show the reply to you. (False)",
-      "type": 5
-    }]
+    "description": "How to play."
   }
 ]

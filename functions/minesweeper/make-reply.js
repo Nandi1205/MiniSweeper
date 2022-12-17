@@ -65,7 +65,6 @@ module.exports = (interaction, ms) => {
         name: 'Game Statistics',
         value: `Status: ${ms.gameStatus}\nMines left: ${remainingMines}\nTime left: ${timeLeftString}`
       })
-    ],
-    ephemeral: interaction.options.getBoolean('private') ?? false
+    ]
   }
 }
